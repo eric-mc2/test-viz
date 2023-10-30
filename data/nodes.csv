@@ -1,4 +1,4 @@
-,name,category,state_abbrv,county_uid,city_uid,in_flow,out_flow,flow,pretty_category,lcc,color,x,y
+id,name,category,state_abbrv,county_uid,city_uid,in_flow,out_flow,flow,pretty_category,lcc,color,x,y
 8237ed4c-91d5-4524-90d8-a222b7f711d5,WESTPOT POLICE DEPARTMENT,LEOs,IN,C-31-18,WESTPORT-31-18,12961.0,0.0,12961.0,LEOs,1,#062160,159.00202393895307,13.442770111649693
 f5841282-b080-4082-8a16-4b298f41a43f,JOHNSON COUNTY SHERIFFS OFFICE,LEOs,,,,7200.0,0.0,7200.0,LEOs,1,#062160,135.9501132564905,74.15834129781786
 fb0f2a9d-ee85-4598-8371-272721728c1a,PLANET DOG FOUNDATION,Private-ish,ME,C-5-23,WESTBROOK-5-23,0.0,9250.0,9250.0,Private-ish,1,#668DE5,51.87913860966944,100.73308298598387
