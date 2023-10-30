@@ -58,14 +58,7 @@ import os
 
 hv.extension('bokeh')
 
-if os.path.exists("./data/nodes.csv"):
-    df = pd.read_csv("./data/nodes.csv")
-elif os.path.exists("../data/nodes.csv"):
-    df = pd.read_csv("../data/nodes.csv")
-elif os.path.exists("../../data/nodes.csv"):
-    df = pd.read_csv("../../data/nodes.csv")
-else:
-    raise RuntimeError("No path to data file.")
+df = pd.read_csv("https://raw.githubusercontent.com/eric-mc2/test-viz/main/data/nodes.csv")[['name','category']]
 
 pn.panel(df).servable()
 
